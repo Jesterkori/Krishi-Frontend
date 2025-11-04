@@ -1,0 +1,15 @@
+SasyaYojana Dependencies
+
+Installation command:
+npm install @react-navigation/native @react-navigation/bottom-tabs @react-navigation/stack firebase formik yup axios react-native-chart-kit @tensorflow/tfjs@4.11.0 @tensorflow/tfjs-react-native@0.8.0 --legacy-peer-deps
+
+npx expo install react-native-screens react-native-safe-area-context expo-location expo-camera expo-image-picker expo-gl expo-gl-cpp react-native-svg @react-native-async-storage/async-storage
+
+IMPORTANT: Always use --legacy-peer-deps flag due to TensorFlow version conflicts.
+
+Node version: 22.18.0
+npm version: 10.9.3
+Expo SDK: 54
+
+To run:
+npx expo start
